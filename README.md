@@ -15,6 +15,8 @@ npm install
 npm run dev
 ```
 
+**Live site: <https://payrghfgh.github.io/tiny-os/>**
+
 Then open the URL Vite prints (http://localhost:5173). `npm run dev` also passes `--host`, so you
 can open the same address from the iPad on the same Wi-Fi using your laptop's local IP.
 
@@ -24,6 +26,19 @@ Other scripts:
 npm run build     # type-check with tsc, then build to dist/
 npm run preview   # serve the production build locally
 ```
+
+## Deploying
+
+The site is published with GitHub Pages from this repository.
+
+```bash
+npm run build:pages   # type-check, then build into docs/
+```
+
+Commit the resulting `docs/` folder and push to `main`. Pages is configured to serve `main` / `docs`,
+so the site updates on the next push. `vite.config.ts` uses `base: './'` and every asset path in
+`index.html` is relative, which is what lets the same build work both at a domain root and under the
+`/tiny-os/` sub-path of a project page.
 
 ## Put it on the iPad
 
