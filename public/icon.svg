@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TinyOS icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="55%" stop-color="#ff6ec7"/>
+      <stop offset="100%" stop-color="#ffb648"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <circle cx="196" cy="216" r="72" fill="#fff" opacity="0.95"/>
+  <circle cx="330" cy="286" r="52" fill="#fff" opacity="0.7"/>
+  <circle cx="268" cy="374" r="30" fill="#fff" opacity="0.5"/>
+</svg>
